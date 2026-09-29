@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "cliente_id": 1,
+        "prodto": "Chia",
+        "quantidade": 2,
+        "preco": 29.9
+    },
+    {
+        "id": 2,
+        "cliente_id": 2,
+        "prodto": "Laranja",
+        "quantidade": 2,
+        "preco": 18.0
+    },
+    {
+        "id": 3,
+        "cliente_id": 3,
+        "prodto": "alface",
+        "quantidade": 1,
+        "preco": 3.00
+    },
+    {
+        "id": 4,
+        "cliente_id": 4,
+        "prodto": "queijo",
+        "quantidade": 1,
+        "preco": 8.6
+    }
+]
