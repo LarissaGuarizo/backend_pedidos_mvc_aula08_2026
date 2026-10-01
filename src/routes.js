@@ -3,6 +3,7 @@ const router = express.Router()
 
 const Cliente = require("./controllers/cliente")
 const Pedido = require("./controllers/pedido")
+const Produto = require("./controllers/produto")
 
 const rotaInicial = (req, res) => {
     res.json("Back-end respondendo")
@@ -19,5 +20,11 @@ router.post('/pedidos',Pedido.criar)
 router.get('/pedidos',Pedido.listar)
 router.put('/pedidos/:id',Pedido.alterar)
 router.delete('/pedidos/:id',Pedido.excluir)
+
+router.post('produtos',Produto.criar)
+router.get('/produtos',Produto.listar)
+router.put('/produtos/:id',Produto.alterar)
+router.delete('/produtos/:id',Produto.excluir)
+
 
 module.exports = router
