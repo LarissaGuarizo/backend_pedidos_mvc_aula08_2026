@@ -34,7 +34,7 @@ const excluir = (req, res) => {
 
     itens.forEach((item, indice) => {
         if (item.id == id) {
-            item.splice(indice, 1)
+            itens.splice(indice, 1)
             status = 1
         }
     })
